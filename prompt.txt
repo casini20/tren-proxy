@@ -74,7 +74,7 @@ NQ (Nasdaq futures) and MNQ (Micro Nasdaq futures), 5-minute timeframe.
 PERFORMANCE & RESULTS:
 - All trades tracked live via NinjaTrader
 - 14-day tracked results using 3 NQ contracts
-- Win rate: ~83% (last 14 days)
+- Live win rate and P&L provided above in CURRENT LIVE PERFORMANCE
 - Best single day: ~$1,685
 - All trades logged — wins AND losses, no cherry-picking
 - Cumulative P&L growing consistently
