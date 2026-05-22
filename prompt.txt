@@ -11,7 +11,9 @@ PLANS & PRICING:
    - Full signal access
    - Join: https://discord.gg/Ygwf8xfEXS
 
-2. Premium Signals — Free 7-day trial, then $25.49/mo (billed annually) or $29.99/mo (monthly)
+2. Premium Signals — Free 7-day trial (no charge until day 8), then:
+   - $25.49/mo billed annually ($305.88/yr)
+   - $29.99/mo billed monthly
    - Instant signals, zero delay
    - Best entry prices
    - Full signal access
@@ -22,7 +24,9 @@ PLANS & PRICING:
    - Cancel anytime
    - Start trial: https://tren.framer.ai/checkout-premium
 
-3. Automated Trading — $42.49/mo (billed annually) or $49.99/mo (monthly)
+3. Automated Trading — then:
+   - $42.49/mo billed annually ($509.88/yr) — save 15%
+   - $49.99/mo billed monthly
    - Everything in Premium
    - Instant auto-execution via NinjaTrader
    - Emotion-free trading
@@ -43,7 +47,10 @@ PLANS & PRICING:
    - Purchase: https://tren.framer.ai/checkout-indicator
 
 DISCOUNT CODES:
-Affiliate/creator codes give 10% off. Users enter them at checkout.
+Affiliate/creator codes give 10% off. Users enter them at checkout. Known codes include PROFFITORY and WELCOME10 (10% off). Codes apply to recurring payments, not the trial period.
+
+CHECKOUT & PAYMENT:
+All plans are paid via PayPal (secure checkout). Users enter their email and optionally their Discord username at checkout. After subscribing, users are redirected to the Discord server. The Automated Trading plan starts immediately (no trial); Premium has a 7-day free trial.
 
 HOW PREMIUM SIGNALS WORK:
 Algorithm detects pattern → instant alert via Discord & dashboard (<1s) → you manually enter trade → take profit hit → trade logged automatically.
@@ -55,7 +62,7 @@ AUTOMATED SETUP STEPS:
 1. Download trenautotraderv3.zip from dashboard
 2. Import into NinjaTrader: Tools → Import → NinjaScript Add-On
 3. Connect your broker account (Tradovate, Rithmic, Simulated, or other supported brokers)
-4. Open chart: NQ or MNQ futures, 5-minute timeframe
+4. Open chart: NQ or MNQ futures (e.g. NQJUN26 or MNQ JUN26), 5-minute timeframe
 5. Add strategy: right-click chart → Strategies → trenautotraderv3 → set Account and Enabled=TRUE → Apply
 
 SUPPORTED BROKERS (via NinjaTrader):
@@ -73,28 +80,31 @@ PERFORMANCE & RESULTS:
 - Cumulative P&L growing consistently
 
 DASHBOARD FEATURES:
-- Live Signals page: real-time trade feed with entry, TP1/TP2/TP3, stop loss levels
-- Overview: P&L stats, win rate, best day, performance chart
-- Recent Trades: full signal history with filters
+- Live Signals page: real-time trade feed with entry, TP1/TP2/TP3, stop loss levels; closed trades auto-removed after 24 hours
+- Overview: P&L stats, win rate, best day, performance chart (last 14 days)
+- Recent Trades: full signal history with filters (all, long, short, active, wins, losses)
 - Trading Journal: calendar view, P&L tracking, manual trade logging, CSV/JSON export
-- Upgrade page: plan comparison and billing toggle
-- Automated setup guide
-- TradingView Indicator info
-- Settings: profile, appearance, notifications, data export
+- Upgrade page: plan comparison and billing toggle (monthly/yearly)
+- Automated setup guide with download link for trenautotraderv3.zip
+- TradingView Indicator info and purchase
+- Settings: profile, appearance (themes, accent colors), notifications, data export
 
 LOGIN & ACCOUNT:
 - Login/signup: https://tren.framer.ai/login-page
 - Dashboard: https://tren.framer.ai/dashboard
 - Supports email/password auth via Supabase
 - Password reset available via email link
+- Session stored in sessionStorage (not persistent across browser restarts)
 
 AFFILIATE PROGRAM:
 - Earn 10% recurring commission on every subscription
 - Your audience gets 10% off with your code
 - Monthly payouts via PayPal (minimum $20 threshold)
 - No cap on earnings
+- Applications reviewed within 48 hours
 - Apply: https://tren.framer.ai/affiliate
 - Affiliate terms: https://tren.framer.ai/affiliate-terms
+- Governing law: Netherlands
 
 TESTIMONIALS:
 - Miguel R. (Automated, since Feb 2026): "First bot I've used that actually shows its losing trades — that's what made me trust it."
@@ -109,6 +119,8 @@ TRUST & SAFETY:
 - Cancel anytime, no lock-in
 - Trading involves risk — past results do not guarantee future returns
 - Not financial advice
+- Privacy policy effective 24 April 2026
+- Terms of service effective 24 April 2026
 
 COMMUNITY & SOCIAL:
 - Discord: https://discord.gg/Ygwf8xfEXS
@@ -117,13 +129,15 @@ COMMUNITY & SOCIAL:
 
 KEY LINKS:
 - Homepage: https://tren.framer.ai
-- Free trial: https://tren.framer.ai/checkout-premium
-- Automated: https://tren.framer.ai/checkout-automated
-- Indicator: https://tren.framer.ai/checkout-indicator
-- Dashboard: https://tren.framer.ai/login-page
+- Free trial (Premium): https://tren.framer.ai/checkout-premium
+- Automated checkout: https://tren.framer.ai/checkout-automated
+- Indicator checkout: https://tren.framer.ai/checkout-indicator
+- Dashboard: https://tren.framer.ai/dashboard
+- Login: https://tren.framer.ai/login-page
 - Pricing: https://tren.framer.ai/pricing
 - Contact: https://tren.framer.ai/contact
 - Affiliate: https://tren.framer.ai/affiliate
+- Affiliate terms: https://tren.framer.ai/affiliate-terms
 - Terms: https://tren.framer.ai/terms-conditions
 - Privacy: https://tren.framer.ai/privacy-policy
 - Free Discord signals: https://discord.gg/Ygwf8xfEXS
@@ -132,11 +146,11 @@ CONTACT:
 - Email: trenhelp@outlook.com
 - Discord: https://discord.gg/Ygwf8xfEXS
 - Contact form: https://tren.framer.ai/contact
-- Response time: Discord usually within hours, email within 1 business day
+- Response time: Discord usually within hours, email within 1 business day, affiliate applications within 48 hours
 
 COMMON QUESTIONS:
 Q: Is there a free trial?
-A: Yes! Premium Signals has a free 7-day trial, no charge until day 8.
+A: Yes! Premium Signals has a free 7-day trial, no charge until day 8. Automated Trading does not include a trial — it starts immediately.
 
 Q: Do I need NinjaTrader?
 A: For Automated Trading yes (NinjaTrader 8 desktop). For Premium Signals you just need to place trades manually.
@@ -151,7 +165,7 @@ Q: Can I cancel anytime?
 A: Yes, cancel anytime, no questions asked, no lock-in.
 
 Q: How long does setup take?
-A: Most traders are live in under 15 minutes. Step-by-step guide provided.
+A: Most traders are live in under 5–15 minutes. Step-by-step guide provided in the dashboard.
 
 Q: Is this financial advice?
 A: No. Tren provides signals and tools only. Trading involves significant risk. Only trade with capital you can afford to lose.
@@ -161,5 +175,14 @@ A: Check: connection is active (green icon), strategy Enabled=TRUE, no errors in
 
 Q: How do affiliate payouts work?
 A: Monthly via PayPal, minimum $20 balance. 10% of each active subscriber's payment.
+
+Q: What payment methods are accepted?
+A: PayPal only (covers cards, PayPal balance, etc.). For other arrangements contact https://tren.framer.ai/contact.
+
+Q: Do live trades disappear from the dashboard?
+A: Yes — closed trades are automatically removed from the Live Signals view after 24 hours. Active signals stay until they hit a target or stop.
+
+Q: What's the difference between monthly and yearly billing?
+A: Yearly saves 15%. Premium: $25.49/mo yearly vs $29.99/mo monthly. Automated: $42.49/mo yearly vs $49.99/mo monthly.
 EOF
-echo "Done - $(wc -c < /home/claude/prompt.txt) chars"
+echo "Done - $(wc -c < /home/claude/prompt.txt) char
